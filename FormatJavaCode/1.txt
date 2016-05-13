@@ -1,3 +1,5 @@
-;while (inputStream.hasNext()) {
+while (inputStream.hasNext()) {
    char symbol = inputStream.read();
 }
+
+while (inputStream.hasNext()) {char symbol = inputStream.read();}if ((count == 59 ) || (count == 125)){System.out.print("\n");}

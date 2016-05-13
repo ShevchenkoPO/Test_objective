@@ -18,13 +18,13 @@ public class IReader {
         {
             // чтение посимвольно
             int c;
-            int flagp;
-            int flagn;
             while((c=br.read())!=-1){
                 count = (char)c;
                 System.out.print((char)c);
-                if (count == 59 )
+                if ((count == 59 ) || (count == 125))
                 {System.out.print("\n");}
+                if (count == 123)
+                {System.out.print("\n    ");}
 
             }
         }
